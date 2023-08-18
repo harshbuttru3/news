@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Syria says four soldiers killed in Israeli strike in Damascus",
+    "description": "Another four soldiers are wounded in the missile attack near the capital Damascus, Syria's state media say.",
+    "url": "http://www.bbc.co.uk/news/world-middle-east-66425130",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1B2D/production/_128675960_gettyimages-85867135.jpg",
+    "publishedAt": "2023-08-07T04:52:16.7415885Z",
+    "content": "Four Syrian soldiers have been killed and another four wounded in an overnight Israeli missile attack, Syria's state media say.\r\nSana news agency is quoting a military source as saying the strike nea… [+872 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Cambodia: PM's son Hun Manet appointed next ruler in royal formality",
+    "description": "The Western-educated Hun Manet is appointed in a formality long signposted by his father Hun Sen.",
+    "url": "http://www.bbc.co.uk/news/world-asia-66391334",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1102/production/_130645340_hunsenmanet.jpg",
+    "publishedAt": "2023-08-07T04:52:16.2544344Z",
+    "content": "The eldest son of Cambodia's long-term ruler has been endorsed as the country's next premier in a formality confirming the transition of power.\r\nOn Monday, Cambodia's king issued a decree stating Hun… [+2035 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Huge plastic recycling fire in New Mexico sparks health alert",
+    "description": "Firefighters are battling a large blaze at the plant in Albuquerque, New Mexico.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66424830",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/BE61/production/_130673784_p0g573zr.jpg",
+    "publishedAt": "2023-08-07T04:52:14.7235651Z",
+    "content": "Firefighters are battling a large blaze at a plastic recycling plant in Albuquerque, New Mexico.\r\nNo injuries were reported, but local officials have issued a health alert as plastics are burning in … [+231 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Niger coup: Junta shuts airspace citing military intervention threat",
+    "description": "Niger's neighbours earlier threatened to act if the elected president was not restored by end of Sunday.",
+    "url": "http://www.bbc.co.uk/news/world-africa-66424858",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C1E5/production/_130673694_e968e49329c0183bc004f24da1d28c509b7746b9-1.jpg",
+    "publishedAt": "2023-08-07T01:37:15.5646874Z",
+    "content": "Niger's coup leaders have closed the country's airspace until further notice, citing the threat of military intervention.\r\nFlight tracking website Flightradar24 is showing that there are currently no… [+2511 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Ahead of Ohio abortion vote, Republicans try to change the rules",
+    "description": "Ohio looked ready to pass an abortion rights amendment. Then Republicans planned another vote.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66375877",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/FE70/production/_130663156_frank-index.jpg",
+    "publishedAt": "2023-08-07T01:07:18.1414392Z",
+    "content": "A pro-choice referendum looked poised to win in the conservative state of Ohio this November. Now, Republican state legislators are accused of moving the goalposts. \r\nLast summer, just like every sum… [+7443 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "The Irish Light: Woman abused by paper which falsely said vaccine killed her son",
+    "description": "Promoting a Covid conspiracy theory, the Irish Light's editor accuses the mum of \"massive fraud\".",
+    "url": "http://www.bbc.co.uk/news/world-europe-66424582",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11A03/production/_130659127_gemmaodoherty2.jpg",
+    "publishedAt": "2023-08-07T01:07:15.6264405Z",
+    "content": "A grieving mother and her lawyer have been targeted by an extreme campaign of abuse after suing a conspiracy theory newspaper which falsely claimed her son died from a Covid vaccine.\r\nThe Irish Light… [+6020 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Man saved after 35 hours in Atlantic in flooded boat",
+    "description": "The 25-year-old was reported missing after failing to return from a fishing trip in St Augustine, Florida.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66424828",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12775/production/_130673657_7954740.jpg",
+    "publishedAt": "2023-08-07T00:37:13.0950642Z",
+    "content": "A man has been rescued from a partially submerged boat in the Atlantic Ocean, 12 miles off the coast of Florida.\r\nThe boater, 25-year-old Charles Gregory, had been missing at sea for about 35 hours i… [+701 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Mother and daughter first to go to space together",
+    "description": "Anastatia Mayers and Keisha Schahaff won a place on Virgin Galactic's first commercial flight in a prize draw.",
+    "url": "http://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-66405219",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F812/production/_130660536_e1915911-8d0f-44c4-94e9-954b35b17122.jpg",
+    "publishedAt": "2023-08-07T00:37:11.8766179Z",
+    "content": "An 18-year-old Aberdeen University student and her mother will travel to space later this week after a winning a place on Virgin Galactic's first commercial flight in a prize draw.\r\nAnastatia Mayers … [+2774 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "Donald Trump says he will ask the Judge to step aside",
+    "description": "Former US President Trump says that his lawyers will ask for a recusal of the judge on his election fraud case.",
+    "url": "http://www.bbc.co.uk/news/world-us-canada-66422516",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11E01/production/_130671237_dfe8001abe5f9c7470febac5b9ebd9704e99a23b.jpg",
+    "publishedAt": "2023-08-07T00:22:12.4867572Z",
+    "content": "Donald Trump has said he will ask the judge in his election fraud case to step aside on what he called \"very powerful grounds\".\r\nHe claimed that \"there is no way I can get a fair trial\" unless she do… [+3431 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "BBC News",
+    "title": "BBC Africa Eye: Elderly caned at Kenya's PCEA Thogoto Care Home for the Aged",
+    "description": "BBC Africa Eye uncovers evidence of mistreatment and neglect of elderly residents.",
+    "url": "http://www.bbc.co.uk/news/world-africa-66387940",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/02B3/production/_130619600_mediaitem130619599.jpg",
+    "publishedAt": "2023-08-06T23:22:17.7231501Z",
+    "content": "Vulnerable residents at an elderly care home near Nairobi, Kenya's capital, have been mistreated and neglected, a BBC Africa Eye investigation has revealed.\r\nSecret filming shows staff members physic… [+7116 chars]"
+    }
+    ]
+    }
