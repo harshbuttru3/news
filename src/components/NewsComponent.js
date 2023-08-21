@@ -6,7 +6,7 @@ export default class NewsComponent extends Component {
  
   constructor(){
     super();
-    console.log("Hello, Hello i am a constructor for newsitem")
+    // console.log("Hello, Hello i am a constructor for newsitem")
     this.state = {
       articles: [],
       loading: false,
@@ -19,13 +19,13 @@ export default class NewsComponent extends Component {
     this.setState({loading:true})
     let data = await fetch(url);
     let parsedData = await data.json();
-    console.log(parsedData);
+    // console.log(parsedData);
     this.setState({articles : parsedData.articles, totalResults: parsedData.totalResults, loading: false});
 
   }
 
    handlePrevClick = async() =>{
-    console.log("prev click")
+    // console.log("prev click")
 
     let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=9027f572576a4d77abbcbf55998d326c&page=${this.state.page - 1}&pagesize=${this.props.pageSize}`;
     this.setState({loading:true})
