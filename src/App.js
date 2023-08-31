@@ -15,7 +15,7 @@ export default class App extends Component {
       <div>
         <Router>
           <NavBar />
-          <Routes>
+          <Routes>  //adding react router to navigate through various categories
             <Route path='/' element={<NewsComponent key="general" pageSize={9} country="in" category="general" />} />
             <Route path='/business' element={<NewsComponent key="business" pageSize={9} country="in" category="business" />} />
             <Route path='/entertainment' element={<NewsComponent key="entertainment" pageSize={9} country="in" category="entertainment" />} />

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class NavItem extends Component {
+export default class NewsItem extends Component {
   
 
   render() {
-    let {title, description, imgUrl, url} = this.props;
+    let {title, description, imgUrl, url, author, date, source} = this.props;
     //croppping the description
     let desA = description? description.split(" "): description;
     let desB = desA ? desA.slice(0, 30): desA;
@@ -21,7 +21,11 @@ export default class NavItem extends Component {
   <div className="card-body">
     <h5 className="card-title">{titC + "..."}</h5>
     <p className="card-text">{desC + "..."}</p>
+    <p className="card-text"><small class="text-muted">By {!author?"unknown":author} on {new Date(date).toGMTString()}</small></p>
     <a href={url} target='_blank' rel='noreffer' className="btn btn-primary">Read</a>
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    {source}
+  </span>
   </div>
 </div>
       </div>

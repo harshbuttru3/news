@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NavItem from './NewsItem'
+import NewsItem from './NewsItem'
 import Spinner from './Spinner'
 import PropTypes from 'prop-types'
 
@@ -17,27 +17,24 @@ export default class NewsComponent extends Component {
 
   constructor(){
     super();
-    // console.log("Hello, Hello i am a constructor for newsitem")
     this.state = {
       articles: [],
-      loading: false,
+      loading: false,   //default state is loading
       page:1 
     }
   }
 
+  //showing contents when components did mount
   async componentDidMount(){
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9027f572576a4d77abbcbf55998d326c&pagesize=${this.props.pageSize}`
-    this.setState({loading:true})
+    this.setState({loading:true})  //updating loading state to true to show spinner.
     let data = await fetch(url);
     let parsedData = await data.json();
-    // console.log(parsedData);
-    this.setState({articles : parsedData.articles, totalResults: parsedData.totalResults, loading: false});
+    this.setState({articles : parsedData.articles, totalResults: parsedData.totalResults, loading: false});  //updating loading state again to false.
 
   }
-
+    //Function on previous click
    handlePrevClick = async() =>{
-    // console.log("prev click")
-
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9027f572576a4d77abbcbf55998d326c&page=${this.state.page - 1}&pagesize=${this.props.pageSize}`;
     this.setState({loading:true})
     let data = await fetch(url);
@@ -51,11 +48,13 @@ export default class NewsComponent extends Component {
     
   };
 
+
+  //Function on next click
   handleNextClick = async() =>{
     console.log("next click")
     if(!(this.state.page+1 > Math.ceil(this.state.totalResults/this.props.pageSize))){
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9027f572576a4d77abbcbf55998d326c&page=${this.state.page + 1}&pagesize=${this.props.pageSize}`;
-    this.setState({loading:true})
+    this.setState({loading:true})  //showing spinner by setting loading state true
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData);
@@ -75,9 +74,11 @@ export default class NewsComponent extends Component {
         <div className="row">
            {!this.state.loading && this.state.articles.map((element)=>{
             return  <div className="col-md-4">
-            <NavItem title = {element.title} description={element.description} imgUrl={element.urlToImage} url={element.url}/>
+              //adding newsitems by mapping so that it takes all the items from parsed data
+            <NewsItem title = {element.title} description={element.description} imgUrl={element.urlToImage} url={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
             </div>
            })}
+           
         </div>
         <div className="container d-flex justify-content-between">
         <button type="button" disabled={this.state.page<=1} className="btn btn-dark" onClick={this.handlePrevClick}> &larr; Previous</button>
